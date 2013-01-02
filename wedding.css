@@ -1,21 +1,25 @@
-body, h1 {
-  font-family: "Century Schoolbook", "Times New Roman",
-        Times, serif;
-  color: #000000;
-  background-image:url('parchment.jpg');
-  background-color: #F4FAD2 }
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: "Century Schoolbook", "Times New Roman", Times, serif;
+    color: #000000;
+    background-image: url('parchment.jpg');
+    background-color: #F4FAD2 
+}
 
 div.leftbox {
-  text-align: left;
-  float: left;
-  display: block;
-  margin-left: 10 }
+    float: left;
+    text-align: left;
+    width: 450px;
+}
 
 div.rightbox {
-  text-align: right;
-  float:right;
-  display: block;
-  margin-right: 10 }
+
+}
 
 img.border {
-  border-style:solid }
+
+}

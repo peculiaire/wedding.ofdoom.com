@@ -4,6 +4,7 @@ html {
 body {
     font-family: "Century Schoolbook", "Times New Roman", Times, serif;
     color: #000000;
+    background-image: url('backgroundcolor.jpg');
     background-color: #f3ebc4;
 }
 

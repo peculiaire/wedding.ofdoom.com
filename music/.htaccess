@@ -1,0 +1,12 @@
+AuthUserFile /home/karma/.wedding_htpasswd/.htpasswd
+AuthName WeddingTunes
+AuthType Basic
+
+<Limit PUT HOST HEAD>
+require user tunes
+</Limit>
+
+<Limit GET>
+#allow from all
+require user tunes
+</Limit>

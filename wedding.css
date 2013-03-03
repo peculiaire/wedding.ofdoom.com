@@ -4,8 +4,7 @@ html {
 body {
     font-family: "Century Schoolbook", "Times New Roman", Times, serif;
     color: #000000;
-    background-image: url('parchment.jpg');
-    background-color: #F4FAD2;
+    background-color: #f3ebc4;
 }
 
 .header {

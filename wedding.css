@@ -25,13 +25,13 @@ body {
 
 #leftbox {
     vertical-align: top; 
-    width: 500px; 
+    width: 350px; 
     text-align: left;
     padding: 15px;
 }
 
 #rightbox {
-    vertical-align: text-top; 
+    vertical-align: middle; 
     width: 300px; 
     padding: 15px;
 }

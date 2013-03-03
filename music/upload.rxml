@@ -1,0 +1,19 @@
+<if variable='form.uploaded-file' >
+  <writefile from='uploaded-file' filename='&form.uploaded-file..filename;'  />
+  <redirect to='/music' />
+</if>
+<else>
+  <html>
+  <head>
+    <title>Upload a file</title>
+  </head>
+  <body>
+  <form method='post'
+        action='upload.rxml'
+        enctype='multipart/form-data'>
+    <input type='file' name='uploaded-file' />
+    <input type='submit' value='Upload file' />
+  </form>
+  </body>
+  </html>
+</else>

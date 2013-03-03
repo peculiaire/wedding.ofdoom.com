@@ -1,25 +1,39 @@
 html {
-    height: 100%;
 }
 
 body {
-    height: 100%;
     font-family: "Century Schoolbook", "Times New Roman", Times, serif;
     color: #000000;
     background-image: url('parchment.jpg');
-    background-color: #F4FAD2 
+    background-color: #F4FAD2;
 }
 
-div.leftbox {
-    float: left;
-    text-align: left;
-    width: 450px;
+.header {
+    width: 100%;
+    top: 0px;
+    text-align: center;
 }
 
-div.rightbox {
-
+.content {
+    display: table;
+    table-layout: fixed
 }
 
-img.border {
+#leftbox, #rightbox { 
+    display: table-cell;
+}
 
+#leftbox {
+    vertical-align: top; 
+    width: 60%; 
+}
+
+#rightbox {
+    vertical-align: text-top; 
+    width: 50%; 
+}
+
+.imgborder {
+   padding:1px;
+   border:1px solid black;
 }

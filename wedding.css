@@ -2,10 +2,16 @@ html {
 }
 
 body {
-    font-family: "Goudy Old Style", "Times New Roman", Times, serif;
+    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
     color: #000000;
     background-image: url('backgroundcolor.jpg');
     background-color: #f3ebc4;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    font-weight: inherit;
+    font-size: 1.3em;
 }
 
 .header {
